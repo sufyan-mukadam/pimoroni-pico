@@ -1,6 +1,6 @@
 # Essential
-include(pimoroni_i2c/micropython)
-include(pimoroni_bus/micropython)
+#include(pimoroni_i2c/micropython)
+#include(pimoroni_bus/micropython)
 
 # Pico Graphics Essential
 include(hershey_fonts/micropython)
@@ -14,31 +14,31 @@ include(picovector/micropython)
 include(qrcode/micropython/micropython)
 
 # Sensors & Breakouts
-include(micropython-common-breakouts)
+#include(micropython-common-breakouts)
 
 # Packs & Bases
-include(pico_unicorn/micropython)
-include(pico_scroll/micropython)
-include(pico_rgb_keypad/micropython)
-include(pico_explorer/micropython)
+# include(pico_unicorn/micropython)
+# include(pico_scroll/micropython)
+# include(pico_rgb_keypad/micropython)
+# include(pico_explorer/micropython)
 
 # LEDs & Matrices
-include(plasma/micropython)
-include(hub75/micropython)
+# include(plasma/micropython)
+# include(hub75/micropython)
 
 # Servos & Motors
-include(pwm/micropython)
-include(servo/micropython)
-include(encoder/micropython)
-include(motor/micropython)
+# include(pwm/micropython)
+# include(servo/micropython)
+# include(encoder/micropython)
+# include(motor/micropython)
 
 # Utility
-include(adcfft/micropython)
+# include(adcfft/micropython)
 
 # RTC (Badger 2040W, Enviro)
-if(PICO_BOARD STREQUAL "pico_w")
-    include(pcf85063a/micropython)
-endif()
+# if(PICO_BOARD STREQUAL "pico_w")
+#     include(pcf85063a/micropython)
+# endif()
 
 include(modules_py/modules_py)
 
@@ -51,4 +51,4 @@ include(modules_py/modules_py)
 # endif()
 
 # Must call `enable_ulab()` to enable
-include(micropython-common-ulab)
+# include(micropython-common-ulab)

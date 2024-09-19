@@ -1,6 +1,6 @@
 # Essential
-#include(pimoroni_i2c/micropython)
-#include(pimoroni_bus/micropython)
+include(pimoroni_i2c/micropython)
+include(pimoroni_bus/micropython)
 
 # Pico Graphics Essential
 include(hershey_fonts/micropython)
